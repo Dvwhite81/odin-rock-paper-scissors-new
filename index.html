@@ -3,11 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TIC TAC TOE</title>
+  <title>ROCK PAPER SCISSORS</title>
   <link rel='stylesheet' href='styles.css' />
   <script src='script.js' defer></script>
 </head>
 <body>
-
+  <h1>ROCK PAPER SCISSORS</h1>
+  <!-- SCORE -->
+   <div id='score'>
+    <h3>Your Score: <span id='human-score'>0</span></h3>
+    <h3>Computer Score: <span id='computer-score'>0</span></h3>
+   </div>
+  <!-- BUTTONS -->
+   <div id='buttons'>
+    <button id='rock-btn' type='button'>ROCK</button>
+    <button id='paper-btn' type='button'>PAPER</button>
+    <button id='scissors-btn' type='button'>SCISSORS</button>
+   </div>
+   <!-- RESULTS -->
+  <div id='results-container'>
+    <h3 id='results'></h3>
+  </div>
+  <!-- END GAME -->
+   <div id='end-game'>
+    <h3 id='end-results'></h3>
+    <button id='play-again-btn' type='button'>Play Again</button>
+   </div>
 </body>
 </html>
